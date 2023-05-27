@@ -19,8 +19,6 @@ function Time() {
     };
   }, [count]);
 
-  <button>Countdown</button>
-
   return (
     <div>
       <h1>Timer</h1>

@@ -1,8 +1,8 @@
 function AnotherUserParticipation({ resetVote }) {
     return (
       <div>
-        <p>Another user wants to participate:</p>
-        <button onClick={resetVote}>Reset Selection</button>
+        <p>Another users wants partication,</p>
+        <button onClick={resetVote}>Reset</button>
       </div>
     );
   }

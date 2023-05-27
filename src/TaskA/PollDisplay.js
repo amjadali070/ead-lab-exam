@@ -1,7 +1,7 @@
 function PollDisplay({ choices }) {
     return (
       <div>
-        <h2>Question</h2>
+        <h4>What is your favorite programming language</h4>
         <ul>
           {choices.map((choice) => (
             <li key={choice.id}>
