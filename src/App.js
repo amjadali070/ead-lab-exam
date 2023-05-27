@@ -1,9 +1,10 @@
-import './App.css';
+import Time from "./TaskB/Timer";
 
 function App() {
+  
   return (
     <div>
-      <h1>Hello World</h1>
+      <Time/>
     </div>
   );
 }
