@@ -3,7 +3,7 @@ import PollDisplay from './TaskA/PollDisplay';
 import UserParticipation from './TaskA/UserParticipation';
 import ThankYouMessage from './TaskA/ThankyouMessage';
 import AnotherUserParticipation from './TaskA/AnotherUserParticipation';
-
+import Timer from './TaskB/Timer';
 
 function App() {
 
@@ -36,6 +36,7 @@ function App() {
 
   return (
     <div className='App'>
+      <h1>Task A</h1>
       <h1>Polling App</h1>
       <PollDisplay choices={options} />
       {!hasVoted ? (
@@ -44,6 +45,11 @@ function App() {
         <ThankYouMessage />
       )}
       {hasVoted && <AnotherUserParticipation resetVote={resetVote} />}
+
+      <br />
+      
+      <h1>Task B</h1>
+      <Timer/>
     </div>
   );
 }

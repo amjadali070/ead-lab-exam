@@ -1,4 +1,4 @@
 function ThankYouMessage() {
-    return <p>Thank you for voting!</p>;
+    return <span>Thank you for voting!</span>;
   }
 export default ThankYouMessage;  

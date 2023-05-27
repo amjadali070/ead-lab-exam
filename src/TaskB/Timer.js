@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-function Time() {
+function Timer() {
   const [count, setCountTime] = useState(10);
 
   useEffect(() => {
@@ -28,4 +28,4 @@ function Time() {
   );
 }
 
-export default Time;
+export default Timer;
